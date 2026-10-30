@@ -1,0 +1,52 @@
+{
+  "examples": [
+    "What time do you close?",
+    "When can my child come back after a fever?",
+    "How much is toddler tuition?",
+    "Is the center peanut-free?",
+    "Can I schedule a tour?",
+    "What should my toddler bring each day?",
+    "Do you offer a sibling discount?",
+    "What's on the lunch menu this week?",
+    "What is your late pickup fee?",
+    "Are you open on Thanksgiving?"
+  ],
+  "guided": [
+    {"category": "Hours", "icon": "clock", "questions": [
+      "What are your hours of operation?",
+      "What is the late pickup fee?",
+      "Which holidays are you closed?",
+      "What happens when the weather is bad?"
+    ]},
+    {"category": "Tuition & Fees", "icon": "dollar", "questions": [
+      "How much is tuition for each age group?",
+      "What fees are there besides tuition?",
+      "Do you offer a sibling discount?",
+      "How and when do I pay tuition?"
+    ]},
+    {"category": "Health & Illness", "icon": "heart", "questions": [
+      "When can my child come back after a fever?",
+      "What is your policy on vomiting or diarrhea?",
+      "How do I give medication to my child at the center?",
+      "What is the process for food or other allergies?"
+    ]},
+    {"category": "Meals", "icon": "meal", "questions": [
+      "What meals and snacks do you serve?",
+      "Is the center peanut-free?",
+      "Can I bring food from home?",
+      "How do you handle infant bottles and formula?"
+    ]},
+    {"category": "Tours & Enrollment", "icon": "door", "questions": [
+      "When can I schedule a tour?",
+      "How do I enroll my child?",
+      "How does the waitlist work?",
+      "What documents are required for enrollment?"
+    ]},
+    {"category": "Policies", "icon": "list", "questions": [
+      "What should my child bring each day?",
+      "What does a typical day look like?",
+      "Who can pick up my child?",
+      "How will teachers communicate with me?"
+    ]}
+  ]
+}
