@@ -50,12 +50,11 @@ export function AuthPage({ onAuthed }) {
         </label>
         {mode === 'signup' && (
           <p className="small muted">
-            <strong>Privacy:</strong> We save your questions so you can see them again. Center staff only see your question with personal details (names, phone numbers, addresses) removed, plus an anonymous ID, never your name or email. Scrubbed text is sent to Google's Gemini service to write answers. Please don't include private details you don't need to.
+            <strong>Privacy:</strong> We save your questions so you can see them again. Center staff only see your question with personal details (names, phone numbers, addresses) removed, plus an anonymous ID, never your name or email. Please don't include private details you don't need to.
           </p>
         )}
         {error && <div className="alert error" role="alert">{error}</div>}
         <button className="primary" disabled={busy}>{busy ? 'Please wait…' : mode === 'login' ? 'Sign in' : 'Create account'}</button>
-        <p className="small muted center">Center staff sign in here too. Staff accounts are created by an administrator.</p>
       </form>
     </main>
   )

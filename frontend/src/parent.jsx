@@ -231,7 +231,6 @@ export function Account({ user, onLogout }) {
         <ul className="small">
           <li>Your questions are saved so you can see them here.</li>
           <li>Staff see your question with personal details removed and an anonymous ID, never your name or email.</li>
-          <li>Scrubbed questions are sent to Google's Gemini service to write answers.</li>
           <li>Deleting your account removes your name, email and original questions.</li>
         </ul>
       </section>
